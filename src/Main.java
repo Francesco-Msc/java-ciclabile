@@ -3,8 +3,17 @@ public class Main {
         int[] numeri = {1, 2, 3, 4, 5};
         Elenco elenco = new Elenco(numeri);
 
-        while (elenco.hasAncoraElementi()) {
-            System.out.println(elenco.getElementoSuccessivo());
-        }
+        System.out.println(elenco.getElementoSuccessivo());
+        System.out.println(elenco.getElementoSuccessivo());
+        System.out.println(elenco.getElementoSuccessivo());
+        System.out.println(elenco.getElementoSuccessivo());
+        System.out.println(elenco.hasAncoraElementi());
+        System.out.println(elenco.getElementoSuccessivo());
+        System.out.println(elenco.hasAncoraElementi());
+        System.out.println(elenco.getElementoSuccessivo());
+
+        // while (elenco.hasAncoraElementi()) {
+        //     System.out.println(elenco.getElementoSuccessivo());
+        // }
     }
 }
